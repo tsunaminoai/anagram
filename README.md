@@ -8,8 +8,6 @@ This is a Zig language project that grew out of wondering if I could do anagram 
 
 The following was measured on an Apple M2 on the dictionary of 348,244 words in this repository. Both my old C code (in the `c` directory) and this Zig code were compiled with ReleaseFast. The query used was "ENCYCLOPEDIA":
 
-Perfomance was measured on an Apple M2 binary compiled with ReleaseFast using a dictionary of 348,244 loaded at runtime and using a query of "ENCYCLOPEDIA":
-
 | Method              | Time (ms) |
 | ------------------- | --------- |
 | C Tree              | 174.23    |
